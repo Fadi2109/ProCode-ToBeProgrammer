@@ -1,0 +1,90 @@
+.container{
+    max-width: 1400px;
+    border: 1px solid black;
+    margin: auto auto;
+    background-color: rgb(222, 244, 252);
+}
+
+.header{
+    font-size: 30pt;
+    background-color: rgb(197, 230, 242);
+    border-bottom: 4px solid black;
+    margin-top: 0pX;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 24pt;
+    margin-left: 25px;
+    font-weight: 500;
+    /* text-decoration: underline; */
+}
+
+.content{
+    font-size: 18pt;
+    margin-left: 35px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+@media  screen and (max-width: 600px) {
+    .content{
+        text-align: left;
+    }
+    
+}
+
+.importantWord{
+    font-weight: 600;
+    color: blue;
+}
+
+.exampleImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    margin: 5px;
+    box-shadow: 7px 9px #49b2c1a1;
+}
+
+.exampleImg:hover{
+    box-shadow: 7px 9px #cd4949a1;
+    border: 1pc solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.frameLi{
+    font-size: 18pt;
+    margin-left: 35px;
+}
+
+.frameLi span{
+    font-weight: 600;
+}
+
+.salaryT{
+    width: 80%;
+    margin-left: 30px;
+}
+
+.text-primary{
+    color: black;
+}
+
+footer{
+    font-size: 14pt;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
